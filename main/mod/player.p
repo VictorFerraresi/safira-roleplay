@@ -1083,8 +1083,8 @@ Player_ResetWeapons(playerid){
 Player_ShowPlayerHelp(playerid){
     SendClientMessage(playerid, C_COLOR_SYNTAX, "______________________________[Comandos Gerais]______________________________");
     SendClientMessage(playerid, C_COLOR_WHITE, "/b, /(g)ritar, /baixo, /(s)ussurrar, /me, /do, /ame, /ado, /pagar, /pm, /admins, /aceitar, /criarcena");
-    SendClientMessage(playerid, C_COLOR_WHITE, "/deletarcena, /comprarcasa, /comprarempresa, /vender, /entrar, /sair");
-    SendClientMessage(playerid, C_COLOR_WHITE, "/logout, /cancelarlogout, /trancar, /mudarspawn, /aceitarmorte, /checarferimentos");
+    SendClientMessage(playerid, C_COLOR_WHITE, "/deletarcena, /comprarcasa, /comprarempresa, /vender, /entrar, /sair, /mudarspawn");
+    SendClientMessage(playerid, C_COLOR_WHITE, "/logout, /cancelarlogout, /trancar, /aceitarmorte, /checarferimentos");
     return 1;
 }
 
