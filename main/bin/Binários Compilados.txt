@@ -1,0 +1,1 @@
+Os binários compilados se encontram nesta pasta. Execute o compile_main-debug.bat para compilar o gamemode na versão de debug, e o compile_main-release.bat para compilar o gamemode na versão de lançamento.

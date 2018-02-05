@@ -1,0 +1,1 @@
+Qualquer tipo de informação pode ser encontrada em nosso [fórum de desenvolvimento.](http://habbismo.com/forum)
