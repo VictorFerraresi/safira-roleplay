@@ -2126,7 +2126,7 @@ CMD:sair(playerid, params[]){
 CMD:logout(playerid, params[]){
     #pragma unused params
     if(Player_IsDead(playerid))
-        return SendClientMessage(playerid, C_COLOR_ERROR, "[ERRO] Você não pode deslogar enquanto estiver morto. (/aceitarmorte)");
+        return SendClientMessage(playerid, C_COLOR_ERROR, "[ERRO] Você não pode deslogar enquanto estiver morto (/aceitarmorte).");
 
     if(gPlayerData[playerid][pLogoutDelay] > 0)
         return SendClientMessage(playerid, C_COLOR_ERROR, "[ERRO] Você já está em processo de logout.");
