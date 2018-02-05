@@ -26,6 +26,7 @@
 #define MAX_FACTIONS 21
 #define MAX_HOUSES 200
 #define MAX_BUSINESSES 100
+#define MAX_ITEM_MODELS 200
 
 #define PHONE_INSURANCE 5556321
 #define PHONE_EMERGENCY 911
@@ -427,6 +428,15 @@ enum sData{
 };
 
 new gShotData[MAX_PLAYERS][sData][11];
+
+enum iData{
+    iSQLID,
+    iModel,
+    iName[64],
+    iWeight    
+};
+
+new gItemData[MAX_ITEM_MODELS][iData];
 
 new 
     hSQL,

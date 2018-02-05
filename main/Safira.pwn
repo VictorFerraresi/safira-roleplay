@@ -28,6 +28,7 @@
 #include "mod\textdraws.p"
 #include "mod\anticheat.p"
 #include "mod\development.p"
+#include "mod\item.p"
 
 //Mapas
 #include "mod\maps\OficinaVinewood.p"
